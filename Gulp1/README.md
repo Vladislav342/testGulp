@@ -1,26 +1,26 @@
-# Простая сборка Gulp
-С помощью этих файлов вы сможете быстро настроить сборку вашего проекта на Gulp.
+# РџСЂРѕСЃС‚Р°СЏ СЃР±РѕСЂРєР° Gulp
+РЎ РїРѕРјРѕС‰СЊСЋ СЌС‚РёС… С„Р°Р№Р»РѕРІ РІС‹ СЃРјРѕР¶РµС‚Рµ Р±С‹СЃС‚СЂРѕ РЅР°СЃС‚СЂРѕРёС‚СЊ СЃР±РѕСЂРєСѓ РІР°С€РµРіРѕ РїСЂРѕРµРєС‚Р° РЅР° Gulp.
 
-## Структура каталогов для размещения файлов стилей и скриптов:
->./src/styles/\*\*/|*.less
+## РЎС‚СЂСѓРєС‚СѓСЂР° РєР°С‚Р°Р»РѕРіРѕРІ РґР»СЏ СЂР°Р·РјРµС‰РµРЅРёСЏ С„Р°Р№Р»РѕРІ СЃС‚РёР»РµР№ Рё СЃРєСЂРёРїС‚РѕРІ:
+>./src/styles/\*\*/|*.less  
 >./src/scripts/\*\*/|*.js
 
-## Инструкция
-1. Скачать все файлы в любую директорию
-2. Ввести в терминале команду: npm i (должен быть установлен node.js)
-3. Выполнить команду: gulp(запуск таска default)
-4. Писать свой код и наслаждаться автоматической сборкой проекта.
+## РРЅСЃС‚СЂСѓРєС†РёСЏ
+1. РЎРєР°С‡Р°С‚СЊ РІСЃРµ С„Р°Р№Р»С‹ РІ Р»СЋР±СѓСЋ РґРёСЂРµРєС‚РѕСЂРёСЋ
+2. Р’РІРµСЃС‚Рё РІ С‚РµСЂРјРёРЅР°Р»Рµ РєРѕРјР°РЅРґСѓ: npm i (РґРѕР»Р¶РµРЅ Р±С‹С‚СЊ СѓСЃС‚Р°РЅРѕРІР»РµРЅ node.js)
+3. Р’С‹РїРѕР»РЅРёС‚СЊ РєРѕРјР°РЅРґСѓ: gulp(Р·Р°РїСѓСЃРє С‚Р°СЃРєР° default)
+4. РџРёСЃР°С‚СЊ СЃРІРѕР№ РєРѕРґ Рё РЅР°СЃР»Р°Р¶РґР°С‚СЊСЃСЏ Р°РІС‚РѕРјР°С‚РёС‡РµСЃРєРѕР№ СЃР±РѕСЂРєРѕР№ РїСЂРѕРµРєС‚Р°.
 
-## Ссылки
-[Сборка проекта на Gulp 4](https://github.com/morphIsmail/gulp_build_3)
-[Документация Gulp на русском языке](https://webdesign-master.ru/blog/docs/gulp-documentation.html)
+## РЎСЃС‹Р»РєРё
+[РЎР±РѕСЂРєР° РїСЂРѕРµРєС‚Р° РЅР° Gulp 4](https://github.com/morphIsmail/gulp_build_3)
+[Р”РѕРєСѓРјРµРЅС‚Р°С†РёСЏ Gulp РЅР° СЂСѓСЃСЃРєРѕРј СЏР·С‹РєРµ](https://webdesign-master.ru/blog/docs/gulp-documentation.html)
 
-## Установленные NPM пакеты
-[gulp](https://www.npmjs.com/package/gulp) Сборщик Gulp
-[gulp-less](https://www.npmjs.com/package/gulp-less) Компиляция Less файлов
-[gulp-babel](https://www.npmjs.com/package/gulp-babel) Компилирует JS в старый код
-[gulp-concat](https://www.npmjs.com/package/gulp-concat) Обьединение нескольких файлов в один
-[gulp-uglify](https://www.npmjs.com/package/gulp-uglify) Сжатие и оптимизация JS кода
-[gulp-rename](https://www.npmjs.com/package/gulp-rename) Переименовывает файлы
-[gulp-clean-css](https://www.npmjs.com/package/gulp-clean-css) Минификация и оптимизация CSS файлов
-[del](https://www.npmjs.com/package/del) Удаление каталогов
+## РЈСЃС‚Р°РЅРѕРІР»РµРЅРЅС‹Рµ NPM РїР°РєРµС‚С‹
+[gulp](https://www.npmjs.com/package/gulp) РЎР±РѕСЂС‰РёРє Gulp  
+[gulp-less](https://www.npmjs.com/package/gulp-less) РљРѕРјРїРёР»СЏС†РёСЏ Less С„Р°Р№Р»РѕРІ  
+[gulp-babel](https://www.npmjs.com/package/gulp-babel) РљРѕРјРїРёР»РёСЂСѓРµС‚ JS РІ СЃС‚Р°СЂС‹Р№ РєРѕРґ  
+[gulp-concat](https://www.npmjs.com/package/gulp-concat) РћР±СЊРµРґРёРЅРµРЅРёРµ РЅРµСЃРєРѕР»СЊРєРёС… С„Р°Р№Р»РѕРІ РІ РѕРґРёРЅ  
+[gulp-uglify](https://www.npmjs.com/package/gulp-uglify) РЎР¶Р°С‚РёРµ Рё РѕРїС‚РёРјРёР·Р°С†РёСЏ JS РєРѕРґР°  
+[gulp-rename](https://www.npmjs.com/package/gulp-rename) РџРµСЂРµРёРјРµРЅРѕРІС‹РІР°РµС‚ С„Р°Р№Р»С‹  
+[gulp-clean-css](https://www.npmjs.com/package/gulp-clean-css) РњРёРЅРёС„РёРєР°С†РёСЏ Рё РѕРїС‚РёРјРёР·Р°С†РёСЏ CSS С„Р°Р№Р»РѕРІ  
+[del](https://www.npmjs.com/package/del) РЈРґР°Р»РµРЅРёРµ РєР°С‚Р°Р»РѕРіРѕРІ  
